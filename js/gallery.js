@@ -99,7 +99,7 @@ function showOriginalImage(evt) {
   if (evt.target.nodeName !== 'IMG') return;
   const originalImage = evt.target.closest('a').href;
   const instance = basicLightbox.create(
-    `<img src="${originalImage}" width="1112px" height="640px"/>`,
+    `<img src="${originalImage}" width="1112" height="640"/>`,
   );
   instance.show();
 }
